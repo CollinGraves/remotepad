@@ -43,6 +43,10 @@ GEM
     autoprefixer-rails (6.3.3)
       execjs
       json
+    babel-source (5.8.19)
+    babel-transpiler (0.7.0)
+      babel-source (>= 4.0, < 6)
+      execjs (~> 2.0)
     bcrypt (3.1.10)
     better_errors (2.1.1)
       coderay (>= 1.0.0)
@@ -74,6 +78,7 @@ GEM
     config (1.0.0)
       activesupport (>= 3.0)
       deep_merge (~> 1.0.0)
+    connection_pool (2.2.0)
     cucumber (2.3.2)
       builder (>= 2.1.2)
       cucumber-core (~> 1.4.0)
@@ -198,6 +203,13 @@ GEM
     rake (10.5.0)
     rdoc (4.2.2)
       json (~> 1.4)
+    react-rails (1.1.0)
+      babel-transpiler (>= 0.7.0)
+      coffee-script-source (~> 1.8)
+      connection_pool
+      execjs
+      rails (>= 3.2)
+      tilt
     responders (1.1.2)
       railties (>= 3.2, < 4.2)
     rspec-core (3.4.2)
@@ -294,6 +306,7 @@ DEPENDENCIES
   pry-rails
   rails (= 4.1.4)
   rails_config
+  react-rails
   rspec-rails
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
