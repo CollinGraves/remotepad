@@ -13,9 +13,17 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require lodash
 //= require react
 //= require react_ujs
 //= require components
 //= require bootstrap
 
 //= require_tree .
+
+
+// var App = React.createClass({
+//   componentWillMount: function() {
+//       this.lock = new Auth0Lock('xXPSO4Mhh9S5KiMGUQYhJsEZroo3Bic1', 'smarty.auth0.com');
+//   }
+// });

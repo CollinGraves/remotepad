@@ -26,6 +26,7 @@ gem 'bootstrap-sass', '3.3.5'
 gem 'bootstrap-sass-extras'
 gem 'tzinfo-data'
 gem 'validates_formatting_of'
+gem 'lodash-rails'
 
 group :development, :test do
   gem 'dotenv-rails'
